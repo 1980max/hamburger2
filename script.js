@@ -3,7 +3,7 @@ const form = document.getElementById("chat-form");
 const input = document.getElementById("user-input");
 const chatBox = document.getElementById("chat-box");
 
-const API_KEY = "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"; // <-- Ersetze das hier später im Editor mit deinem echten Key
+const API_KEY = "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"; // <-- Ersetze das hier später im Editor mit deinem echten Key
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
